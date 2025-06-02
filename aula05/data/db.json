@@ -1,0 +1,44 @@
+{
+  "alunos": [
+    {
+      "id": "1",
+      "nome": "Maria Margarida Ramos Cardoso",
+      "email": "margarida@gmail.com"
+    },
+    {
+      "id": "2",
+      "nome": "Josemir Oliveira Cardoso",
+      "email": "josemiroc@gmail.com"
+    },
+    {
+      "id": "3",
+      "nome": "Kézya Lopes de Medeiros Cardoso",
+      "email": "kezyalopes@gmail.com"
+    },
+    {
+      "id": "4",
+      "nome": "Manuela Medeiros Cardoso",
+      "email": "manuelamedeiroscardoso@gmail.com"
+    },
+    {
+      "id": "ff0a",
+      "nome": "Teste",
+      "email": "teste@gmail.com"
+    },
+    {
+      "id": "fdce",
+      "nome": "Teste2",
+      "email": "teste2@gmail.com"
+    },
+    {
+      "id": "9794",
+      "nome": "Teste3",
+      "email": "teste3@gmail.com"
+    },
+    {
+      "id": "8e95",
+      "nome": "Teste4",
+      "email": "teste4@gmail.com"
+    }
+  ]
+}
