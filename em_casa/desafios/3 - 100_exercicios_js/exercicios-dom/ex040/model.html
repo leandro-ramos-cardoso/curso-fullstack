@@ -1,0 +1,37 @@
+<!-- Crie uma página que simule um cronômetro com funções de iniciar, parar e resetar. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cronômetro</h1>
+    </header>
+
+    <section>
+        <div>
+
+            <p><input id="btn" type="button" value="START" onclick="iniciaCronometro()"></p>
+
+            <p><input id="btn-stop" type="button" value="STOP" onclick="paraCronometro()"></p>
+
+            <p><input id="btn-reset" type="button" value="RESET" onclick="reiniciaCronometro()"></p>
+        </div>
+
+        <div id="resultado">
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

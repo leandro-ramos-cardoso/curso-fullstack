@@ -1,0 +1,35 @@
+<!-- Crie uma página que receba um array de números e calcule a média, mediana e moda. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo Estatístico</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cálculo Estatístico</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="texto">Informe sua data de nascimento: </p> <br>
+            <p><input type="date" name="txtanonasc" id="txtanonasc" class="intxt"></p>
+
+            <p><input id="btn" type="button" value="Calcular" onclick="calculoIdade()"></p>
+        </div>
+
+        <div id="resultado">
+            Descobrindo sua idade...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
