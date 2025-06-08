@@ -1,16 +1,17 @@
 import React from 'react'
 
 const AlunoComFragment = ({ nome, email, curso, media }) => {
-  
-    const status = media >= 7 ? 'APROVADO' : 'REPROVADO'
 
-    return (
+    // OPERADOR TERNÁRIO (ACEITA APENAS DUAS OPCOES)
+  const status = media >= 7 ? 'APROVADO' : 'REPROVADO'
+
+  return (
     <>
-        <h5>Nome: {nome}</h5>
+        <h5 className='nomeAluno'>Nome: {nome}</h5>
         <p>Email: {email}</p>
         <p>Curso: {curso}</p>
         <p>Média: {media}</p>
-        <p>Status: {status}  </p>
+        <p>Status: {status}</p>
     </>
   )
 }

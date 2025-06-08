@@ -1,11 +1,11 @@
 import React from 'react'
-import ImagemDeAsset from '../assets/img-de-assets.png'
+import ImagemDeAsset from '../assets/img-asset.jpg'
 
 const TrabalhandoComImagens = () => {
   return (
     <div>
-        <img src="/img-da-public.png" alt='' />
-        <img src={ImagemDeAsset} alt='' />
+        <img src="/img-public.jpg" alt="" />
+        <img src={ImagemDeAsset} alt="" />
     </div>
   )
 }
