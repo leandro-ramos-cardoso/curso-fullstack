@@ -1,0 +1,35 @@
+<!-- Crie uma página que receba um texto e substitua todas as ocorrências de uma palavra por outra. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contando palavras</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contando palavras</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="texto">Digite uma frase:</p> <br>
+            <p><input type="text" name="txtfrase" id="txtfrase" class="intxt"></p> <br>
+            
+            <p><input id="btn" type="button" value="Contar" onclick="mudaPalavra()"></p>
+        </div>
+
+        <div id="resultado">
+            Mudando letras...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!-- Crie uma página que exiba os números pares e ímpares de 1 a N, onde N é inserido pelo usuário. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pares e Impares</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pares e Impares</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="texto">Digite um número:</p> <br>
+            <p><input type="text" name="txtnumero" id="txtnumero" class="intxt"></p> <br>
+            
+            <p><input id="btn" type="button" value="Contar" onclick="verificaNumero()"></p>
+        </div>
+
+        <div id="resultado">
+            Verificando número...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
