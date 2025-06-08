@@ -1,0 +1,108 @@
+{
+    "alunos": [
+        {
+            "nome": "nome 1",
+            "email": "email 1",
+            "curso": "curso 1",
+            "id": "1"
+        },
+        {
+            "nome": "nome 2",
+            "email": "email 2",
+            "curso": "curso 2",
+            "id": "2"
+        },
+        {
+            "nome": "nome 3",
+            "email": "email 3",
+            "curso": "curso 3",
+            "id": "3"
+        },
+        {
+            "nome": "nome 4",
+            "email": "email 4",
+            "curso": "curso 4",
+            "id": "4"
+        },
+        {
+            "nome": "nome 5",
+            "email": "email 5",
+            "curso": "curso 5",
+            "id": "5"
+        },
+        {
+            "nome": "nome 6",
+            "email": "email 6",
+            "curso": "curso 6",
+            "id": "6"
+        },
+        {
+            "nome": "nome 7",
+            "email": "email 7",
+            "curso": "curso 7",
+            "id": "7"
+        },
+        {
+            "nome": "nome 8",
+            "email": "email 8",
+            "curso": "curso 8",
+            "id": "8"
+        },
+        {
+            "nome": "Kézya",
+            "email": "kezya@best.com",
+            "curso": "Medicina",
+            "id": "10"
+        },
+        {
+            "id": "b799",
+            "nome": "Manuela",
+            "email": "manumc@gmail.com",
+            "curso": "Medicina"
+        }
+    ],
+    "cursos": [
+        {
+            "nome": "nome 1",
+            "descricao": "descricao 1",
+            "duracao": 58,
+            "instrutor": "instrutor 1",
+            "id": "1"
+        },
+        {
+            "nome": "nome 2",
+            "descricao": "descricao 2",
+            "duracao": 15,
+            "instrutor": "instrutor 2",
+            "id": "2"
+        },
+        {
+            "nome": "nome 3",
+            "descricao": "descricao 3",
+            "duracao": 48,
+            "instrutor": "instrutor 3",
+            "id": "3"
+        },
+        {
+            "nome": "nome 5",
+            "descricao": "descricao 5",
+            "duracao": 8,
+            "instrutor": "instrutor 5",
+            "id": "5"
+        }
+    ],
+    "projetos": [
+        {
+            "nome": "Bucks",
+            "descricao": "Servico Bancario",
+            "dataInicio": "20250608",
+            "dataTermino": "20250608",
+            "status": "Ativo",
+            "id": "e89a"
+        },
+        {
+            "nome": "Title Alter2",
+            "id": "c779"
+        }
+    ]
+}
